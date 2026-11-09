@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estatísticas de Futebol</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 20px;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            color: #1a252f;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .card {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .card h2 {
+            margin-top: 0;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 8px;
+        }
+        .stat-item {
+            display: flex;
+            justify-content: space-between;
+            margin: 10px 0;
+            font-size: 14px;
+        }
+        .yellow { color: #d4ac0d; font-weight: bold; }
+        .red { color: #c0392b; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <h1>Estatísticas dos Times</h1>
+
+    <div class="container">
+        <!-- Real Madrid -->
+        <div class="card">
+            <h2>Real Madrid</h2>
+            <div class="stat-item"><span>Gols:</span> <strong>35</strong></div>
+            <div class="stat-item"><span>Assistências:</span> <strong>28</strong></div>
+            <div class="stat-item"><span>Títulos:</span> <strong>102</strong></div>
+            <div class="stat-item"><span>Cartões Amarelos:</span> <span class="yellow">18</span></div>
+            <div class="stat-item"><span>Cartões Vermelhos:</span> <span class="red">2</span></div>
+        </div>
+
+        <!-- Barcelona -->
+        <div class="card">
+            <h2>Barcelona</h2>
+            <div class="stat-item"><span>Gols:</span> <strong>32</strong></div>
+            <div class="stat-item"><span>Assistências:</span> <strong>25</strong></div>
+            <div class="stat-item"><span>Títulos:</span> <strong>99</strong></div>
+            <div class="stat-item"><span>Cartões Amarelos:</span> <span class="yellow">22</span></div>
+            <div class="stat-item"><span>Cartões Vermelhos:</span> <span class="red">1</span></div>
+        </div>
+
+        <!-- Flamengo -->
+        <div class="card">
+            <h2>Flamengo</h2>
+            <div class="stat-item"><span>Gols:</span> <strong>29</strong></div>
+            <div class="stat-item"><span>Assistências:</span> <strong>21</strong></div>
+            <div class="stat-item"><span>Títulos:</span> <strong>60</strong></div>
+            <div class="stat-item"><span>Cartões Amarelos:</span> <span class="yellow">25</span></div>
+            <div class="stat-item"><span>Cartões Vermelhos:</span> <span class="red">3</span></div>
+        </div>
+
+        <!-- Coritiba -->
+        <div class="card">
+            <h2>Coritiba</h2>
+            <div class="stat-item"><span>Gols:</span> <strong>18</strong></div>
+            <div class="stat-item"><span>Assistências:</span> <strong>14</strong></div>
+            <div class="stat-item"><span>Títulos:</span> <strong>40</strong></div>
+            <div class="stat-item"><span>Cartões Amarelos:</span> <span class="yellow">30</span></div>
+            <div class="stat-item"><span>Cartões Vermelhos:</span> <span class="red">4</span></div>
+        </div>
+    </div>
+
+</body>
+      </html>
+  
